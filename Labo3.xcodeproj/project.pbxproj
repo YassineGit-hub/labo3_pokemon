@@ -16,6 +16,8 @@
 		B669F9472A47571B007A5432 /* Labo3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669F9462A47571B007A5432 /* Labo3Tests.swift */; };
 		B669F9512A47571B007A5432 /* Labo3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669F9502A47571B007A5432 /* Labo3UITests.swift */; };
 		B669F9532A47571B007A5432 /* Labo3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669F9522A47571B007A5432 /* Labo3UITestsLaunchTests.swift */; };
+		B669F9602A4757D1007A5432 /* pokemonDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669F95F2A4757D1007A5432 /* pokemonDownloader.swift */; };
+		B669F9622A4778E9007A5432 /* imageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B669F9612A4778E9007A5432 /* imageDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B669F94C2A47571B007A5432 /* Labo3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Labo3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B669F9502A47571B007A5432 /* Labo3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labo3UITests.swift; sourceTree = "<group>"; };
 		B669F9522A47571B007A5432 /* Labo3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labo3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B669F95F2A4757D1007A5432 /* pokemonDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonDownloader.swift; sourceTree = "<group>"; };
+		B669F9612A4778E9007A5432 /* imageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B669F9382A47571A007A5432 /* Assets.xcassets */,
 				B669F93A2A47571A007A5432 /* LaunchScreen.storyboard */,
 				B669F93D2A47571A007A5432 /* Info.plist */,
+				B669F95F2A4757D1007A5432 /* pokemonDownloader.swift */,
+				B669F9612A4778E9007A5432 /* imageDownloader.swift */,
 			);
 			path = Labo3;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				B669F9342A475717007A5432 /* ViewController.swift in Sources */,
 				B669F9302A475717007A5432 /* AppDelegate.swift in Sources */,
+				B669F9602A4757D1007A5432 /* pokemonDownloader.swift in Sources */,
+				B669F9622A4778E9007A5432 /* imageDownloader.swift in Sources */,
 				B669F9322A475717007A5432 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
