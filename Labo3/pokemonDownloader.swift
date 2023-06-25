@@ -19,6 +19,12 @@ struct Pokemon: Decodable {
 
 struct Sprites: Decodable {
     let front_default: String
+    let back_default: String
+
+    enum CodingKeys: String, CodingKey {
+        case front_default
+        case back_default = "back_default"
+    }
 }
 
 class PokemonDownloader {
@@ -48,7 +54,3 @@ class PokemonDownloader {
         task.resume()
     }
 }
-
-
-
-

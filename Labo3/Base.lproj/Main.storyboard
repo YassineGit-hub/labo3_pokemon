@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-m8-hva">
-                                <rect key="frame" x="8" y="52" width="374" height="236"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="236" id="v2b-1e-e13"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokémon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpF-f8-5rv">
                                 <rect key="frame" x="8" y="538" width="374" height="264"/>
                                 <constraints>
@@ -31,26 +25,33 @@
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pLV-6W-9l5">
+                                <rect key="frame" x="2" y="144" width="386" height="386"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pLV-6W-9l5" secondAttribute="height" multiplier="1:1" id="ghs-g2-DSf"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hpF-f8-5rv" secondAttribute="bottom" constant="8" id="5Ve-qP-qIz"/>
+                            <constraint firstItem="pLV-6W-9l5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="Dap-Ma-QdE"/>
+                            <constraint firstItem="pLV-6W-9l5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="L4d-UJ-QYd"/>
+                            <constraint firstItem="pLV-6W-9l5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cR4-bs-fvK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hpF-f8-5rv" secondAttribute="trailing" constant="8" id="frV-in-l2L"/>
-                            <constraint firstItem="KTG-m8-hva" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="hwn-Kd-L9k"/>
-                            <constraint firstItem="KTG-m8-hva" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="m0c-gm-zB1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KTG-m8-hva" secondAttribute="trailing" constant="8" id="mjT-Fs-cXs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pLV-6W-9l5" secondAttribute="trailing" constant="2" id="gZD-jh-zoQ"/>
                             <constraint firstItem="hpF-f8-5rv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="o32-Sl-QgA"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="KTG-m8-hva" id="XOE-57-Gyb"/>
+                        <outlet property="imageView" destination="pLV-6W-9l5" id="dOE-o7-mbK"/>
                         <outlet property="pokemonInfoLabel" destination="hpF-f8-5rv" id="tG7-wo-RAI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8.6956521739130448" y="45.535714285714285"/>
+            <point key="canvasLocation" x="7.6923076923076916" y="45.497630331753555"/>
         </scene>
     </scenes>
     <resources>
