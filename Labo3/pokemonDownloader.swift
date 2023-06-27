@@ -7,14 +7,15 @@ struct Pokemon: Decodable {
     let weight: Int
     let height: Int
 
-    // Convert height from decimeters to meters and weight from decagram to kilogram
-    var heightInMeters: Float {
-        return Float(height) / 10.0
+    // hauteur en decimetre et poids en decagramme au kilogramme
+    var heightInHectometers: Float {
+        return Float(height)
     }
 
-    var weightInKilograms: Float {
-        return Float(weight) / 10.0
+    var weightInDecagrams: Float {
+        return Float(weight)
     }
+
 }
 
 struct Sprites: Decodable {

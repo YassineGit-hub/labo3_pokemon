@@ -30,8 +30,8 @@ class ViewController: UIViewController {
                     self?.pokemonInfoLabel.text = """
                     ID: \(pokemon.id)
                     Name: \(pokemon.name)
-                    Height: \(pokemon.heightInMeters) m
-                    Weight: \(pokemon.weightInKilograms) kg
+                    Height: \(pokemon.heightInHectometers) décimètres
+                    Weight: \(pokemon.weightInDecagrams) hectogrammes
                     """
 
                     if let frontImageUrl = URL(string: pokemon.sprites.front_default) {
